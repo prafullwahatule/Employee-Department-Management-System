@@ -37,3 +37,71 @@ Employee-Department-Management-System/
 ```bash
 git clone https://github.com/prafullwahatule/Employee-Department-Management-System.git
 cd Employee-Department-Management-System
+```
+
+### 2. Open MySQL
+
+Login into MySQL using CLI or Workbench:
+```bash
+mysql -u root -p
+```
+
+### 3. Run Schema
+```bash
+SOURCE schema.sql;
+```
+
+### 4. Insert Sample Data
+```bash
+SOURCE seed.sql;
+```
+
+### 5. Practice Situational Queries
+```bash
+SOURCE situational_queries.sql;
+```
+
+##🏗️ Database Design
+Departments Table
+
+DepartmentID (Primary Key, Auto Increment)
+
+DepartmentName (VARCHAR, NOT NULL)
+
+Location (VARCHAR)
+
+HeadOfDepartment (VARCHAR)
+
+AnnualBudget (DECIMAL)
+
+Employees Table
+
+EmployeeID (Primary Key, Auto Increment)
+
+FirstName (VARCHAR, NOT NULL)
+
+LastName (VARCHAR)
+
+DepartmentID (Foreign Key → Departments)
+
+Salary (DECIMAL, NOT NULL)
+
+DateOfJoining (DATE)
+
+Email (VARCHAR, UNIQUE, NOT NULL)
+
+## 🎯 Learning Outcomes
+
+By completing this project, you will:
+
+Understand database design & normalization
+
+Learn to implement Primary Key – Foreign Key relationships
+
+Practice SQL commands: CREATE, INSERT, SELECT, UPDATE, DELETE, ALTER
+
+Gain confidence in handling real-world business scenarios with SQL
+
+# 🤝 Contribution
+
+Feel free to fork this repo, raise issues, or submit pull requests to improve the project.
