@@ -27,3 +27,13 @@ Employee-Department-Management-System/
 ├── situational_queries.sql # Practice queries (INSERT, SELECT, GROUP BY, UPDATE, DELETE)
 ├── .gitignore # Ignored files
 └── README.md # Project documentation
+
+
+---
+
+## ⚙️ Setup Instructions
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/prafullwahatule/Employee-Department-Management-System.git
+cd Employee-Department-Management-System
