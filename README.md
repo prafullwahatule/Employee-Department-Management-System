@@ -61,7 +61,7 @@ SOURCE seed.sql;
 SOURCE situational_queries.sql;
 ```
 
-##🏗️ Database Design
+# 🏗️ Database Design
 Departments Table
 
 DepartmentID (Primary Key, Auto Increment)
@@ -90,7 +90,7 @@ DateOfJoining (DATE)
 
 Email (VARCHAR, UNIQUE, NOT NULL)
 
-## 🎯 Learning Outcomes
+# 🎯 Learning Outcomes
 
 By completing this project, you will:
 
@@ -105,3 +105,4 @@ Gain confidence in handling real-world business scenarios with SQL
 # 🤝 Contribution
 
 Feel free to fork this repo, raise issues, or submit pull requests to improve the project.
+
