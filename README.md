@@ -20,3 +20,10 @@ It is designed as a **learning project** to practice database design, data inser
 ---
 
 ## 🗂️ Project Structure
+Employee-Department-Management-System/
+│
+├── schema.sql # Table creation scripts
+├── seed.sql # Initial data insertion
+├── situational_queries.sql # Practice queries (INSERT, SELECT, GROUP BY, UPDATE, DELETE)
+├── .gitignore # Ignored files
+└── README.md # Project documentation
